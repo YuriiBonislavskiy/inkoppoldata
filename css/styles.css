@@ -31,7 +31,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--base-color);
   /* overflow: hidden; */
-  position: relative;
+  /* position: relative; */
   height: 100%;
   width: 100%;
 }
@@ -89,15 +89,12 @@ body {
   transform: translateX(-50%);
 }
 
-.bg-button {
-  align-self: center;
+.bg-button1,
+.bg-button2 {
   width: 80vw;
-  height: 25vh;
-  margin-top: 60vh;
-  margin-bottom: 20vh;
   margin-left: 10vw;
   margin-right: auto;
-  margin-bottom: 5vh;
+  /* margin-bottom: 5vh; */
     font-size: 22px;
       font-weight: 700;
       line-height: 0.875;
@@ -106,9 +103,18 @@ body {
       border-radius: 20px;
       background-color: rgba(107, 107, 107, 0.5);
       color: var(--base-color2);
-      height: 8vh;
+      height: 6vh;
 }
 
+.bg-button1 {
+  margin-top: 60vh;
+  margin-bottom: 10px;
+}
+
+.bg-button2 {
+  margin-top: 10px;
+  margin-bottom: 40vx;
+}
 /* .bg-button {
   
   font-size: 22px;

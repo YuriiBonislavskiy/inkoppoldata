@@ -1,0 +1,210 @@
+.registration {
+    align-items: center;
+    text-align: center;
+    padding-left: 5vw;
+}
+
+.pasport-img {
+    margin: 5vw 5vw 5vw 0;
+    padding: 5px;
+    width: 90vw;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    background-color: rgba(107, 107, 107, 0.5);
+}
+
+.reg-form {
+    /* margin-left: 5pv; */
+    max-width: 90vw;
+    padding: 5px;
+}
+
+.reg-form-list {
+    padding: 0px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    /* margin-right: 40px; */
+}
+
+.reg-form-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+    transition: fill var(--anime-time) var(--anime-function);
+}
+
+.reg-form-item:first-child {
+    margin-top: 12px;
+}
+
+.reg-form-item2 {
+    margin-bottom: 0px;
+}
+
+.reg-form-item>label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.167;
+    letter-spacing: 0.01em;
+    color: var(--base-color);
+}
+
+.reg-form-item>label>span {
+    margin-bottom: 4px;
+}
+
+.reg-form-item .reg-form-field {
+    padding-left: 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: border-color var(--anime-time) var(--anime-function);
+    height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.167;
+    letter-spacing: 0.01em;
+    color: var(--menu-item-color);
+    outline: none;
+    /* text-align: left; */
+}
+
+.reg-form-item .coment {
+    height: 120px;
+    resize: none;
+    padding: 12px 16px;
+}
+
+/* .reg-form-item .reg-form-email::placeholder {
+  color: var(--base-color2);
+} */
+
+.reg-form-item .reg-form-icon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    bottom: 0px;
+    left: 12px;
+    transform: translateY(-12px);
+    fill: var(--menu-item-color);
+}
+
+.reg-form-coment::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.reg-form-field {
+    transition: border-color var(--anime-time) var(--anime-function);
+}
+
+
+.reg-form-item:is(:hover) .reg-form-icon,
+.reg-form-field:is(:focus)+.reg-form-icon {
+    fill: var(--select-color);
+    cursor: pointer;
+}
+
+.reg-form-item:is(:hover) .reg-form-field,
+.reg-form-field:is(:focus) {
+    border-color: var(--select-color);
+    cursor: pointer;
+}
+
+.reg-form-icon {
+    transition: fill var(--anime-time) var(--anime-function);
+}
+
+/*    Чек-бокс ВАРІАНТ 1 */
+
+.reg-form-checkbox-box {
+    position: relative;
+    margin-left: 12px;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+    display: flex;
+    align-items: center;
+}
+
+.reg-form-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    opacity: 0;
+}
+
+.reg-form-checkbox-icon {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    border: 1px solid var(--menu-item-color);
+    border-radius: 2px;
+    fill: var(--base-color2);
+    background-color: var(--base-color2);
+    transform: translateY(3px);
+    transition: border var(--anime-time) var(--anime-function), fill var(--anime-time) var(--anime-function);
+}
+
+.reg-form-checkbox-label {
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+
+.reg-form-checkbox:checked+.reg-form-checkbox-icon {
+    background-color: var(--select-color);
+    fill: var(--select-color);
+    border-color: var(--select-color);
+}
+
+.reg-form-checkbox-icon:hover,
+.reg-form-checkbox:focus+.reg-form-checkbox-icon {
+    border-color: var(--select-color);
+}
+
+
+.contract {
+    color: var(--select-color);
+}
+
+/* .reg-form-button {
+    margin-top: 30px;
+    padding: 10px 52px;
+    box-shadow: none;
+    transition: ox-shadow var(--anime-time) var(--anime-function);
+} */
+
+.bg-button {
+    /* margin-top: 60vh; */
+    width: 70%;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 0.875;
+    letter-spacing: 0.03em;
+    border: 2px solid rgba(10, 10, 10, 0.5);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: var(--base-color);
+    height: 6vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.bg-button:hover,
+.bg-button:focus {
+    border-color: var(--select-color);
+    color: var(--select-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}

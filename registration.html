@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/registration.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Registration</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="registration">
+            <img class="pasport-img" src="./images/passport.jpg">
+            <form class="reg-form">
+                <span class="reg-form-item">
+                    <label>
+                        <span>First name</span>
+                        <input type="text" class="reg-form-field" name="reg-form-first-name" value="MARIANA" autofocus>
+                        <svg class="reg-form-icon">
+                            <use href="./images/icons.svg#person-black-18dp"></use>
+                        </svg></label>
+                </span>
+                <span class="reg-form-item">
+                    <label>
+                        <span>Last name</span>
+                        <input type="text" class="reg-form-field" name="reg-form-last-name" value="TKACHENKO">
+                        <svg class="reg-form-icon">
+                            <use href="./images/icons.svg#person-black-18dp"></use>
+                        </svg></label>
+                </span>
+                <span class="reg-form-item">
+                    <label><span>Email</span>
+                        <input type="email" class="reg-form-field" name="reg-form-emale" id="reg-form-email" value="mariana.tkachenko@gmail.com">
+                        <svg class="reg-form-icon">
+                            <use href="./images/icons.svg#email-black-18dp"></use>
+                        </svg></label>
+                </span>
+                <span class="reg-form-item">
+                    <label><span>Pasport No</span>
+                        <input type="text" class="reg-form-field" name="reg-form-pasport-no" value="XX000000">
+                        <svg class="reg-form-icon">
+                            <use href="./images/icons.svg#person-black-18dp"></use>
+                        </svg></label>
+                </span>
+                <span class="reg-form-item">
+                    <label><span>Nationality</span>
+                        <input type="text" class="reg-form-field" name="reg-form-nationality" value="UKRAINE">
+                        <svg class="reg-form-icon">
+                            <use href="./images/icons.svg#person-black-18dp"></use>
+                        </svg></label>
+                </span>
+                <span class="reg-form-checkbox-box">
+                    <label>
+                        <input type="checkbox" name="f-checkbox" class="reg-form-checkbox" value="OK">
+                        <svg class="reg-form-checkbox-icon">
+                            <use href="./images/icons.svg#castom-check-box"></use>
+                        </svg>
+                        <span class="reg-form-checkbox-label">I agree to the terms of registration <span><a href=""
+                                    class="contract">terms of registration</a></span></span>
+                    </label>
+                </span>
+
+
+
+            </form>
+                <button type="submit" class="bg-button" onclick="document.location.href='./index.html'">Send</button>
+
+        </div>
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+/* Задання CSS-змінних */
+:root {
+  --base-color: #757575;
+  --base-color2: #FFFFFF;
+  --header-color: #000000;
+  --menu-item-color: #212121;
+  --select-color: #2196F3;
+  --background-dark: #2F303A;
+  --background-light: #F5F4FA;
+  --icon-color: #AFB1B8;
+  --icon-dark: #FFFFFF1A;
+  --project-item-color: #EEEEEE;
+  --anime-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --anime-time: 250ms;
+  --scale-min: 0.5;
+  --modal-height: 581px;
+  --modal-width: 528px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--base-color);
+    min-height: 100vh;
+      min-width: 100vw;
+  /* height: 1000px;
+  width: 100%; */
+}
+
+
+.bg, .language {
+    min-height: 100vh;
+      min-width: 100vw;  
+      position: absolute;
+  /* display: block; */
+  /* top: 0px;
+  left: 0px; */
+  /* width: 200vw;
+  height: 200vh; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+
+.bg-image {
+  background-image: url('../images/bali-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* height: 100%; */
+  background-attachment: fixed;
+}
+
+.language-link {
+  position: absolute;
+  top: 5vh;
+  right: 3vh;
+  /* margin-left: auto; */
+  text-decoration: none;
+  color: var(--base-color2);
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+
+.coat-bali-1 {
+  position: absolute;
+  height: 7vh;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.welcome {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bg-buttons {
+  position: absolute;
+  top: 70vh;
+  width: 80vw;
+  left: 10vw;
+  /* margin-left: 10vw;
+  margin-right: auto; */
+  /* margin-bottom: 5vh; */
+}
+
+.bg-button1 {
+  /* margin-top: 60vh; */
+  width: 100%;
+  font-size: 22px;
+    font-weight: 700;
+    line-height: 0.875;
+    letter-spacing: 0.03em;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    background-color: rgba(107, 107, 107, 0.5);
+    color: var(--base-color2);
+    height: 6vh;
+      margin-bottom: 2vh;
+}
+
+/* .bg-button {
+  
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 0.875;
+  letter-spacing: 0.03em;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  background-color: rgba(107, 107, 107, 0.5);
+  color: var(--base-color2);
+  height: 8vh; */
+/* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; 
+}*/
+
+

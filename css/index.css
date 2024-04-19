@@ -57,7 +57,7 @@ body {
 
 .bg-image {
   background-image: url('../images/bali-bg.jpg');
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-position: top;
   /* height: 100%; */
